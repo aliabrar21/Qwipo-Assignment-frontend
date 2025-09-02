@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+Got it 👍 Here’s a **README.md** for your frontend project. I’ve mentioned clearly at the top that the backend GitHub repository is separate.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```markdown
+# Customer Management Frontend (React)
 
-## Available Scripts
+⚠️ **Note:** The **backend repository is separate** and must be set up before running this frontend.  
+You can find the backend code here: [Backend Repository Link](https://github.com/your-backend-repo)  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Project Overview
+This is the **frontend of the Customer Management System**, built using **ReactJS** with **Axios** for API calls and **React Router** for navigation.  
+It allows users to perform **CRUD operations** (Create, Read, Update, Delete) on customers.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The app is fully **responsive** and styled with **modern professional CSS**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Features
+- Add new customers  
+- View customer list  
+- Update customer details  
+- Delete customers  
+- Responsive design (mobile + desktop)  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
+- **ReactJS** (Frontend framework)  
+- **React Router** (Page navigation)  
+- **Axios** (API calls to backend)  
+- **CSS** (Custom responsive styles)  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📂 Folder Structure
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+frontend/
+│── public/
+│── src/
+│   ├── components/
+│   │   ├── CustomerForm.js
+│   │   ├── CustomerList.js
+│   │   ├── EditCustomer.js
+│   ├── App.js
+│   ├── index.js
+│   ├── App.css
+│── package.json
+│── README.md
 
-### `npm run eject`
+````
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Installation & Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/aliabrar21/Qwipo-Assignment-frontend
+cd your-frontend-repo
+````
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 2️⃣ Install dependencies
 
-## Learn More
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 3️⃣ Start the development server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm start
+```
 
-### Code Splitting
+The app will run on: **[http://localhost:3000](http://localhost:3000)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🔗 API Integration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Make sure the **backend server** is running before using the frontend.
+Update the API base URL in your frontend code if needed (inside `src/components/CustomerService.js` or where Axios is configured).
 
-### Making a Progressive Web App
+Example:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```javascript
+const API_URL = "http://localhost:5000/api/customers";
+```
 
-### Advanced Configuration
+## ✅ License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is licensed under the **MIT License**.
 
-### Deployment
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Would you like me to also **create a README for the backend repo** so that both look professional and linked properly?
+```
