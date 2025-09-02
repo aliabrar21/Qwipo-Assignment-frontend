@@ -4,7 +4,9 @@ Got it 👍 Here’s a **README.md** for your frontend project. I’ve mentioned
 # Customer Management Frontend (React)
 
 ⚠️ **Note:** The **backend repository is separate** and must be set up before running this frontend.  
-You can find the backend code here: [Backend Repository Link](https://github.com/your-backend-repo)  
+You can find the backend code here:
+
+Backend Repository Link : https://github.com/aliabrar21/Qwipo-Assignment-backend.git 
 
 ---
 
